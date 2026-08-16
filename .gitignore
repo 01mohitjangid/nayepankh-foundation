@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# Remotion caches
+.remotion/
+
+# renders (only the final deliverable out/video.mp4 is tracked)
+out/*
+!out/video.mp4
+
+# OS noise
+.DS_Store
