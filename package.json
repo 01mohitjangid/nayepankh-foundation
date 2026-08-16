@@ -1,0 +1,26 @@
+{
+  "name": "ui-demo-recreation",
+  "version": "1.0.0",
+  "description": "Pixel-accurate Remotion recreation of the 'UI Demo' kinetic typography reference (Pinterest pin 36099234508296370)",
+  "scripts": {
+    "studio": "npx remotion studio",
+    "render": "npx remotion render src/index.ts UIDemo out/video.mp4",
+    "render:preview": "npx remotion render src/index.ts UIDemo out/preview.mp4 --scale=0.5",
+    "still": "npx remotion still src/index.ts UIDemo",
+    "typecheck": "npx tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.425",
+    "@remotion/google-fonts": "4.0.425",
+    "@remotion/paths": "4.0.425",
+    "@remotion/shapes": "4.0.425",
+    "@remotion/transitions": "4.0.425",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "4.0.425"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
